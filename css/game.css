@@ -1,0 +1,152 @@
+html {
+    font-family: "Oswald"; 
+    background-color: #fafafa;
+  }
+header{
+
+    background-color: black;
+    padding: 1px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-family: "Oswald"; 
+}
+h2{
+    font-size: 1.8em;
+    text-align: center;
+    margin: 10px 0px;
+   
+}
+  nav {
+    display: flex;
+    flex: 1 100%;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 5px 0px;
+  }
+ nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2.2em 2em;
+  }
+  nav ul li {
+    display: inline;
+    padding: 0 .4em;
+  }
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    padding-bottom: 1.3em;
+    transition: .5s color;
+  }
+  nav ul li a:hover {
+    border-bottom: 3px solid black;
+  }
+  #current {
+    color: #ff4629;
+    border-bottom: 3px solid black;
+  }
+  * {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #eee;
+}
+.container .top_info {
+    width: 80%;
+    padding: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.container .top_info > h1 {
+    margin-bottom: 20px;
+}
+.container .top_info > p {
+    padding: 5px;
+    font-size: 30px;
+}
+.container .top_info > p > span {
+    color: red;
+    font-weight: bold;
+}
+.container .top_info > button {
+    padding: 15px;
+    width: 80%;
+    max-width: 300px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: #222;
+    color: #fff;
+    border-radius: 4px;
+    user-select: none;
+}
+.game_container{
+    background: #ddd;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 20px #888;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 700px;
+    text-align: center;
+    font-family: Tahoma;
+    user-select: none;
+}
+.game_container .player {
+    background: #51f93e!important;
+    box-shadow: 0 0 20px #888;
+    transform: scale(1.02);
+}
+.game_container .computer {
+    background: #ff2121!important;
+    box-shadow: 0 0 20px #888;
+    transform: scale(1.02);
+}
+.game_container > div {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    width: calc(100% / 3 - 10px * 2 - 4px - 10px * 2);
+    overflow: hidden;
+    border-radius: 4px;
+    transition: all .5s;
+    cursor: pointer;
+    user-select: none;
+}
+.game_container > div:hover {
+    background: #ccc;
+    box-shadow: 0 0 20px #888;
+    transform: scale(1.02);
+}
+.game_container > div > img {
+    width: 80%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.game_container > div > span {
+    font-size: 32px;
+    font-weight: bold;
+    display: block;
+    margin-top: 20px;
+}
+  footer{
+    grid-area: footer;
+    line-height: 50px;
+    background-color: black;
+    text-align: center;
+    flex: 1 100%;
+    color: white;
+}
+
